@@ -5513,9 +5513,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devjo\\source\\repos\\CreditoDebitoAPI\\CreditoDebitoAPI\\CreditoDebitoAPI\\TesteUnitario\\TesteUnitario.csproj",
-      "projectName": "TesteUnitario",
-      "projectPath": "C:\\Users\\devjo\\source\\repos\\CreditoDebitoAPI\\CreditoDebitoAPI\\CreditoDebitoAPI\\TesteUnitario\\TesteUnitario.csproj",
+      "projectUniqueName": "C:\\Users\\devjo\\source\\repos\\CreditoDebitoAPI\\CreditoDebitoAPI\\CreditoDebitoAPI\\TesteUnitario\\UnitTest.csproj",
+      "projectName": "UnitTest",
+      "projectPath": "C:\\Users\\devjo\\source\\repos\\CreditoDebitoAPI\\CreditoDebitoAPI\\CreditoDebitoAPI\\TesteUnitario\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\devjo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\devjo\\source\\repos\\CreditoDebitoAPI\\CreditoDebitoAPI\\CreditoDebitoAPI\\TesteUnitario\\obj\\",
       "projectStyle": "PackageReference",
