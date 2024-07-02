@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Enumerators;
 
 namespace Domain.Entities
@@ -7,6 +8,7 @@ namespace Domain.Entities
     {
         private decimal _value;
 
+        [Column(TypeName = "decimal(18,8)")]
         public decimal Value
         {
             get => _value;
