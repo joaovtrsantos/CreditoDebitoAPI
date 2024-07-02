@@ -363,3 +363,13 @@ MigrationBackup/
 FodyWeavers.xsd
 /CreditoDebitoAPI/TesteUnitario/obj/Debug/net8.0/UnitTest.AssemblyInfoInputs.cache
 /CreditoDebitoAPI/TesteUnitario/obj/Debug/net8.0/UnitTest.AssemblyInfo.cs
+/CreditoDebitoAPI/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/CreditoDebitoAPI/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/CreditoDebitoAPI/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/CreditoDebitoAPI/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/CreditoDebitoAPI/Infrastructure/obj/Debug/net8.0/Infrastructure.assets.cache
+/CreditoDebitoAPI/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+/CreditoDebitoAPI/Infrastructure/obj/Infrastructure.csproj.nuget.g.props
+/CreditoDebitoAPI/Infrastructure/obj/Infrastructure.csproj.nuget.g.targets
+/CreditoDebitoAPI/Infrastructure/obj/project.assets.json
+/CreditoDebitoAPI/Infrastructure/obj/project.nuget.cache
