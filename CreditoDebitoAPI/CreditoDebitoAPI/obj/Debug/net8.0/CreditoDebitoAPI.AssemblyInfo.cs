@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreditoDebitoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7e2539f5c797b6d59f5d59f468c9088e3281c57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6691f922ba5d12df8ce30a323059994ada600a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreditoDebitoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreditoDebitoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
