@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/CreditoDebitoAPI/TesteUnitario/obj/Debug/net8.0/UnitTest.AssemblyInfoInputs.cache
+/CreditoDebitoAPI/TesteUnitario/obj/Debug/net8.0/UnitTest.AssemblyInfo.cs
