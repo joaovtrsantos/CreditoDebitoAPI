@@ -389,3 +389,11 @@ FodyWeavers.xsd
 /CreditoDebitoAPI/TesteUnitario/obj/UnitTest.csproj.nuget.dgspec.json
 /CreditoDebitoAPI/TesteUnitario/obj/UnitTest.csproj.nuget.g.props
 /CreditoDebitoAPI/TesteUnitario/obj/UnitTest.csproj.nuget.g.targets
+/CreditoDebitoAPI/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/CreditoDebitoAPI/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/CreditoDebitoAPI/Application/obj/Debug/net8.0/Application.assets.cache
+/CreditoDebitoAPI/Application/obj/Application.csproj.nuget.dgspec.json
+/CreditoDebitoAPI/Application/obj/Application.csproj.nuget.g.props
+/CreditoDebitoAPI/Application/obj/Application.csproj.nuget.g.targets
+/CreditoDebitoAPI/Application/obj/project.nuget.cache
+/CreditoDebitoAPI/Application/obj/project.assets.json
