@@ -4,12 +4,12 @@ using Domain.Interfaces;
 
 namespace Application.UseCases.CreditDebits
 {
-    public interface ICreateProductUseCase
+    public interface ICreateCreditDebitUseCase
     {
         Task Execute(CreateCreditDebitRequest productRequest);
     }
 
-    public class CreateDebitUseCase(ICreditDebitRepository creditDebitRepository) : ICreateProductUseCase
+    public class CreateCreditDebitUseCase(ICreditDebitRepository creditDebitRepository) : ICreateCreditDebitUseCase
     {
         private readonly ICreditDebitRepository _creditDebitRepository = creditDebitRepository;
 
