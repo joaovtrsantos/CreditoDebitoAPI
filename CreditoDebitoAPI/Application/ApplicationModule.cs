@@ -13,6 +13,9 @@ namespace Application
 
             services.AddScoped<ICreateCreditDebitUseCase, CreateCreditDebitUseCase>();
             services.AddScoped<IGetCreditDebitsUseCase, GetCreditDebitsUseCase>();
+            services.AddScoped<IGetCreditDebitByIdUseCase, GetCreditDebitByIdUseCase>();
+            services.AddScoped<IUpdateCreditDebitUseCase, UpdateCreditDebitUseCase>();
+            services.AddScoped<IDeleteCreditDebitUseCase, DeleteCreditDebitByIdUseCase>();
 
         }
     }

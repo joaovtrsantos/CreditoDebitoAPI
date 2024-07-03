@@ -16,9 +16,9 @@ namespace CreditoDebitoAPI.Controllers.CreditDebits
         }
 
         [HttpPut]
-        public async Task UpdateCreditDebit([FromBody] CreateCreditDebitRequest createCreditDebitRequest, [FromServices] ICreateCreditDebitUseCase createCreditDebitUseCase)
+        public async Task UpdateCreditDebit([FromBody] UpdateCreditDebitRequest updateCreditDebitRequest, [FromServices] IUpdateCreditDebitUseCase updateCreditDebitUseCase)
         {
-            await createCreditDebitUseCase.Execute(createCreditDebitRequest);
+            await updateCreditDebitUseCase.Execute(updateCreditDebitRequest);
         }
 
         [HttpGet]
@@ -27,16 +27,16 @@ namespace CreditoDebitoAPI.Controllers.CreditDebits
             return await getCreditDebitsUseCase.Execute();
         }
 
-        [HttpGet("by-id")]
-        public async Task GetCreditDebit([FromBody] CreateCreditDebitRequest createCreditDebitRequest, [FromServices] ICreateCreditDebitUseCase createCreditDebitUseCase)
+        [HttpGet("by-id/{id}")]
+        public async Task<CreditDebit> GetCreditDebit(Guid id, [FromServices] IGetCreditDebitByIdUseCase getCreditDebitByIdUseCase)
         {
-            await createCreditDebitUseCase.Execute(createCreditDebitRequest);
+            return await getCreditDebitByIdUseCase.Execute(id);
         }
 
-        [HttpDelete]
-        public async Task DeleteCreditDebit([FromBody] CreateCreditDebitRequest createCreditDebitRequest, [FromServices] ICreateCreditDebitUseCase createCreditDebitUseCase)
+        [HttpDelete("/{id}")]
+        public async Task DeleteCreditDebit(Guid id, [FromServices] IDeleteCreditDebitUseCase deleteCreditDebitUseCase)
         {
-            await createCreditDebitUseCase.Execute(createCreditDebitRequest);
+            await deleteCreditDebitUseCase.Execute(id);
         }
     }
 }

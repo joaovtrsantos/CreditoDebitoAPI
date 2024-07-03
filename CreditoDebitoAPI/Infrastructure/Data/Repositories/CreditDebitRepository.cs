@@ -35,7 +35,7 @@ namespace Infrastructure.Data.Repositories
 
         public async Task<CreditDebit> GetById(Guid id)
         {
-            return await _context.CreditDebits.SingleAsync(x => x.Id == id);
+            return await _context.CreditDebits.SingleOrDefaultAsync(x => x.Id == id) ?? throw new KeyNotFoundException("No transaction found for this id");
         }
 
         public async Task Update(CreditDebit creditDebit)
