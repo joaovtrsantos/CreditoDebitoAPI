@@ -22,7 +22,7 @@ namespace Domain.Entities
             }
         }
 
-        public DateTime? TransactionDate { get; set; } = DateTime.Now;
+        public DateTime TransactionDate { get; set; } = DateTime.Now;
         public CreditDebitType IsCreditOrDebit { get; set; }
     }
 }

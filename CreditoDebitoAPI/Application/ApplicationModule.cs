@@ -1,4 +1,5 @@
-﻿using Application.UseCases.CreditDebits;
+﻿using Application.UseCases.Balance;
+using Application.UseCases.CreditDebits;
 using Domain.Interfaces;
 using Infrastructure.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +17,7 @@ namespace Application
             services.AddScoped<IGetCreditDebitByIdUseCase, GetCreditDebitByIdUseCase>();
             services.AddScoped<IUpdateCreditDebitUseCase, UpdateCreditDebitUseCase>();
             services.AddScoped<IDeleteCreditDebitUseCase, DeleteCreditDebitByIdUseCase>();
-
+            services.AddScoped<IGetDailyBalanceUseCase, GetDailyBalanceUseCase>();
         }
     }
 }

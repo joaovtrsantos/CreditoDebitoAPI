@@ -133,5 +133,31 @@ namespace UnitTest.Infrastructure
             Assert.NotNull(result);
             Assert.Equal(200, result.Value);
         }
+
+        [Fact]
+        public async Task GetDailyBalance_ReturnsCorrectRecords()
+        {
+            var options = new DbContextOptionsBuilder<CreditDebitContext>()
+                .UseInMemoryDatabase(Guid.NewGuid().ToString())
+                .Options;
+
+            using (var arrangeContext = new CreditDebitContext(options))
+            {
+                arrangeContext.CreditDebits.AddRange(
+                    new CreditDebit { Value = 100, TransactionDate = DateTime.Now.AddDays(-1) },
+                    new CreditDebit { Value = 200, TransactionDate = DateTime.Now.AddDays(-3) },
+                    new CreditDebit { Value = 300, TransactionDate = DateTime.Now.AddDays(-10) }
+                );
+                arrangeContext.SaveChanges();
+            }
+
+            using (var context = new CreditDebitContext(options))
+            {
+                var repository = new CreditDebitRepository(context);
+                var daysAgo = 7;
+                var result = await repository.GetDailyBalance(daysAgo);
+                Assert.Equal(2, result.Count);
+            }
+        }
     }
 }

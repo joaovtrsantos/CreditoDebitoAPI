@@ -10,5 +10,6 @@ namespace Domain.Interfaces
         Task<CreditDebit> GetById(Guid id);
         Task Update(CreditDebit creditDebit);
         Task Delete(Guid id);
+        Task<List<CreditDebit>> GetDailyBalance(int daysAgo);
     }
 }

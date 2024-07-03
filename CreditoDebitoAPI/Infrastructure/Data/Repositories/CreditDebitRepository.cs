@@ -44,6 +44,14 @@ namespace Infrastructure.Data.Repositories
             await SaveChanges();
         }
 
+        public async Task<List<CreditDebit>> GetDailyBalance(int daysAgo)
+        {
+            var dateLimit = DateTime.Now.AddDays(-daysAgo);
+            return await _context.CreditDebits
+                                 .Where(x => x.TransactionDate >= dateLimit)
+                                 .ToListAsync();
+        }
+
         private Task<int> SaveChanges()
         {
             return _context.SaveChangesAsync();
