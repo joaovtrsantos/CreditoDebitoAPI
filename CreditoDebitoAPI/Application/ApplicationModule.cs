@@ -9,8 +9,11 @@ namespace Application
     {
         public static void AddApplicationModule(this IServiceCollection services)
         {
-            services.AddScoped<ICreateCreditDebitUseCase, CreateCreditDebitUseCase>();
             services.AddScoped<ICreditDebitRepository, CreditDebitRepository>();
+
+            services.AddScoped<ICreateCreditDebitUseCase, CreateCreditDebitUseCase>();
+            services.AddScoped<IGetCreditDebitsUseCase, GetCreditDebitsUseCase>();
+
         }
     }
 }
