@@ -31,7 +31,7 @@ Check in SSMS if the database has been created properly:
 ### 🔹 Step 3 – Run the Application
 Run the solution. The Swagger page will automatically open in your default browser.
 
-[image](https://github.com/user-attachments/assets/058f3587-128c-48de-a535-bece14e5642e)
+![image](https://github.com/user-attachments/assets/058f3587-128c-48de-a535-bece14e5642e)
 
 🚀 Using the API
 ### 🔸 Step 4 – Create Transactions
