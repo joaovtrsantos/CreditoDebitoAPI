@@ -34,7 +34,7 @@ Run the solution. The Swagger page will automatically open in your default brows
 [image](https://github.com/user-attachments/assets/058f3587-128c-48de-a535-bece14e5642e)
 
 🚀 Using the API
-###🔸 Step 4 – Create Transactions
+### 🔸 Step 4 – Create Transactions
 Use the POST /CreditDebit endpoint to create transactions:
 
 Negative value + Type 1 = Credit
