@@ -1,5 +1,9 @@
 # 💳 Credit and Debit API
 
+## 📌 About the Project
+
+**Credit and Debit API** is a .NET Core application for managing financial transactions, including credit and debit entries, and querying daily or period-based balance summaries. The project is built with clean architecture and follows best practices such as SOLID principles, TDD, and microservices.
+
 ## 🧰 Requirements
 
 - Visual Studio  
@@ -57,6 +61,24 @@ Use the GET /CreditDebit/by-id/{id} endpoint to retrieve a specific transaction 
 Use the GET /Balance/{days} endpoint to check the daily balance or the balance for a specific number of past days.
 
 ![image](https://github.com/user-attachments/assets/615cb268-9eeb-4688-95b9-0efad940b075)
+
+🛠️ Technologies and Good Practices/Principles Used
+
+.NET Core
+
+SQL Server
+
+Entity Framework Core
+
+Swagger
+
+SOLID Principles
+
+TDD (Test-Driven Development)
+
+Clean Architecture
+
+Microservices
 
 ---
 
