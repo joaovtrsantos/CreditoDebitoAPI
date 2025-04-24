@@ -28,7 +28,7 @@ Check in SSMS if the database has been created properly:
 
 ![image](https://github.com/user-attachments/assets/bb9b63ec-e555-44fa-9fff-598d51c0a569)
 
-###🔹 Step 3 – Run the Application
+### 🔹 Step 3 – Run the Application
 Run the solution. The Swagger page will automatically open in your default browser.
 
 [image](https://github.com/user-attachments/assets/058f3587-128c-48de-a535-bece14e5642e)
@@ -43,17 +43,17 @@ Positive value + Type 2 = Debit
 
 ![image](https://github.com/user-attachments/assets/fc40feaf-cb48-41ce-a622-47379d9f7aec)
 
-###🔸 Step 5 – Retrieve All Transactions
+### 🔸 Step 5 – Retrieve All Transactions
 Use the GET /CreditDebit endpoint to retrieve all transactions.
 
 ![image](https://github.com/user-attachments/assets/10d7f176-3901-4cbc-b712-072c7bd4a004)
 
-###🔸 Step 6 – Retrieve Transaction by ID
+### 🔸 Step 6 – Retrieve Transaction by ID
 Use the GET /CreditDebit/by-id/{id} endpoint to retrieve a specific transaction by its ID.
 
 ![image](https://github.com/user-attachments/assets/b766d6ad-02f8-426e-bc42-36761ad83c70)
 
-###🔸 Step 7 – Daily or Period Balance
+### 🔸 Step 7 – Daily or Period Balance
 Use the GET /Balance/{days} endpoint to check the daily balance or the balance for a specific number of past days.
 
 ![image](https://github.com/user-attachments/assets/615cb268-9eeb-4688-95b9-0efad940b075)
